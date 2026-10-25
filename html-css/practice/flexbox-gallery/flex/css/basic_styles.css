@@ -1,0 +1,91 @@
+html {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: sans-serif;
+  height: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: #EAE6E5;
+}
+
+h2 {
+  text-align: center;
+}
+
+.navbar {
+  height: 70px;
+  width: 100%;
+  background-color: #C17C74;
+}
+
+.navbar-items {
+  height: 100%;
+  width: 200px;
+  margin: 0 auto;
+  color: #EAE6E5;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.content {
+  margin: 30px auto;
+  width: 60%;
+}
+
+.content .post {
+  margin: 40px 0 20px 0;
+}
+
+.content .post .post-content {
+  border-left: 5px solid #C17C74;
+  padding: 0 20px;
+}
+
+.content .post .post-content img {
+  width: 250px;
+  margin: 10px;
+}
+
+.content .post .icons {
+  margin: 10px 0;
+  font-size: 13px;
+  width: 220px;
+}
+
+.content .post .icons .icon img {
+  width: 28px;
+  height: 28px;
+}
+
+.gallery {
+  width: 70%;
+  margin: 30px auto;
+}
+
+.gallery .main-picture img {
+  height: 580px;
+}
+
+.gallery .small-pictures img {
+  width: 130px;
+}
+
+.gallery .small-pictures {
+  margin-left: 20px;
+}
+
+.pictures {
+  width: 80%;
+  height: 500px;
+  margin: auto;
+}
+
+.pictures img {
+  width: 350px;
+}

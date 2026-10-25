@@ -1,0 +1,31 @@
+.photo-item{
+    width: 200px;
+    height: 200px;
+    margin: 15px;
+    float: left;
+    border-radius: 50%;
+    border: 3px solid white;
+    overflow: hidden;
+}
+
+.photo-item img{
+    height: 200px;
+    width: auto;
+}
+
+.blocked{
+    filter: grayscale(100%);
+}
+
+.available{
+    border: 6px solid green;
+}
+
+#achievements{
+    background-color: antiquewhite;
+    width: 720px;
+}
+
+.clear{
+    clear: both;
+}

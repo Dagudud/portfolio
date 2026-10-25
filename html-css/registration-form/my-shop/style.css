@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+DE+SAS:wght@100..400&family=Story+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Playwrite+DE+SAS:wght@100..400&family=Story+Script&display=swap');
+
+body{
+    font-family: Georgia, serif;
+    background: linear-gradient(90deg, #474350, black);
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+header{
+    background: linear-gradient(90deg, black, #00008b);
+    color: white;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+img[alt="Логотип"]{
+    height: 90px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover{
+    color: #ffd700;
+    transition: color 0.3s;
+}
+
+.catalog{
+    padding: 30px;
+    text-align: center;
+}
+
+.product{
+    display: inline-block;
+    width: 220px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.product:hover{
+    transform: translateY(-5px);
+}
+
+img[alt="Монитор"]{
+    width: 100%;
+    height: 195px;
+    border-radius: 8px;
+}
+
+.price{
+    color: #e91e63;
+    font-weight: bold;
+}
+
+.buy-btn{
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 16px;
+    background-color: #4caf50;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+img[alt="Клавиатура"]{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img[alt="Наушники"]{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img[alt="Мышка"]{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.buy-btn:hover{
+    background-color: #388e3c;
+}
+
+.reviews{
+    background-color: black;
+    padding: 30px;
+    text-align: center;
+    color: black;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+ul li{
+    display: inline-block;
+    width: 300px;
+    margin: 10px;
+    text-align: left;
+    background-color: #fefefe;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.1);
+}
+
+.avatar{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+.review{
+    color: white;
+}
+
+footer{
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.product2{
+    display: inline-block;
+    width: 220px;
+    background-color: black;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    padding: 15px;
+    vertical-align: top;
+    transition: transform 0.2s;
+}
+
+.product2:hover{
+    transform: translateY(-5px);
+}
+
+img[alt="Монитор2"]{
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+}
+
+img[alt="Клавиатура2"]{
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+}
+
+img[alt="Наушники2"]{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img[alt="Мышка2"]{
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+img[alt="Коврик"]{
+    width: 100%;
+    height: 240px;
+    border-radius: 8px;
+}
+
+img[alt="геймпад"]{
+    width: 100%;
+    height: 201px;
+    border-radius: 8px;
+}
+
+img[alt="кабель авиатор"]{
+    width: 100%;
+    height: 222px;
+    border-radius: 8px;
+}
+
+img[alt="лампа для монитора"]{
+    width: 100%;
+    height: 220px;
+    border-radius: 8px;
+}
+
+img[alt="звезда"]{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+img[alt="пустая звезда"]{
+    width: 35px;
+    height: 35px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+h1{
+    font-family: "Story Script", sans-serif;
+}
+
+ul{
+    font-family: "Caveat", cursive;
+    font-weight: bold;
+}
+
+h3{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}

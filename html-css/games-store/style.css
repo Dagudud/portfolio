@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Oi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oi&family=Ruslan+Display&display=swap');
+
+body{
+    margin: 0;
+}
+
+.header{
+    background-color: black;
+    height: 10vh;
+    padding-top: 5vh;
+    width: 100vw;
+    text-align: center;
+    color: white;
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: -21px;
+}
+
+.main{
+    background-color: rgb(39, 39, 39);
+    height: 87vh;
+    text-align: center;
+    margin: 0;
+
+}
+
+.main img{
+    height: 100%;
+}
+
+.main h1{
+    font-size: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-family: "Ruslan Display", sans-serif;
+    color: white;
+}
+
+.main p{
+    color: white;
+}
+
+.catalog{
+    background-color: gray;
+}
+
+.catalog-item{
+    float: left;
+    padding-top: 15vh;
+    height: 85vh;
+    width: 30%;
+    text-align: center;
+    margin-left: 40px;
+    color: white;
+}
+
+.catalog img{
+    height: 30%;
+    margin-bottom: 10px;
+}
+
+.clear{
+    clear: both;
+}

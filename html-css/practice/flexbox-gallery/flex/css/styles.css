@@ -1,0 +1,32 @@
+.post-content{
+    display: flex;
+}
+
+.navbar-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icons{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+}
+
+.gallery{
+    display: flex;
+}
+
+.small-pictures{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.pictures{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}

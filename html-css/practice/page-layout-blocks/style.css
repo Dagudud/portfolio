@@ -1,0 +1,42 @@
+body{
+    margin: 0;
+}
+
+header{
+    width: 100%;
+    background-color: rgb(190, 190, 142);
+    height: 200px;
+}
+
+#navigation{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(255, 133, 133);
+}
+
+#left{
+    width: 12%;
+    height: 750px;
+    background-color: rgb(224, 224, 224);
+    float: left;
+}
+
+#main{
+    width: 70%;
+    height: 750px;
+    background-color: rgb(214, 214, 214);
+    float: right;
+}
+
+#three{
+    width: 30%;
+    height: 750px;
+    background-color: black;
+}
+
+footer{
+    width: 100%;
+    height: 250px;
+    background-color: rgb(0, 159, 212);
+    clear: both;
+}

@@ -1,0 +1,36 @@
+.wrapper{
+    height: 1320px;
+    width: 1500px;
+    margin-left: 900px;
+}
+
+.items-row{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.img1{
+    background-image: url(img/горы.jpg);
+    background-repeat: no-repeat;
+}
+
+.img2{
+    background-image: url(img/водопад.avif);
+    background-repeat: no-repeat;
+}
+
+.item{
+    margin: 2px;
+    border: 1px solid gray;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    flex: 1 1 20%;
+    transition: flex 0.4s ease;
+}
+
+.item:hover{
+    flex: 0.01 0.01 70%;
+}

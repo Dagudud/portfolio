@@ -1,0 +1,19 @@
+.middle{
+    background: url('img/middle.png')repeat-y;
+}
+
+.top{
+    background: url('img/top.png')no-repeat left top;
+    left: 30px;
+    top: 30px;
+}
+
+.bottom{
+    background: url('img/bottom.png')no-repeat left bottom;
+    left: 30px;
+    bottom: 30px;
+}
+
+.content{
+    padding-left: 250px;
+}

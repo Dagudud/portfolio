@@ -1,0 +1,94 @@
+.wrapper{
+    background-image: url(img/bg.png);
+    width: 100vw;
+    height: 100vh;
+    padding-top: 550px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.form-conteiner{
+    width: 480px;
+    background-color: white;
+    margin-left: 1500px;
+}
+
+.header a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+.log, .reg{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+
+.reg{
+    float: left;
+    background-color: #8032E4;
+    color: white;
+}
+
+.log{
+    float: right;
+    color: #8032E4;
+}
+
+form{
+    padding: 20px;
+}
+
+input{
+    padding-top: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    margin: 10px;
+    width: 80%;
+    border: 1px solid rgb(204, 204, 204);
+}
+
+input:focus{
+    outline: 0;
+    border: 1px solid #b176ff;
+}
+
+#mail{
+    background: url(img/email.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+
+#name{
+    background: url(img/user.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+
+#pass{
+    background: url(img/pass.png) no-repeat 3px 1px;
+    background-size: auto 90%;
+}
+
+input[type="checkbox"]{
+    width: auto;
+    margin-right: 0;
+}
+
+button{
+    padding: 10px;
+    color: white;
+    background-color: #8032E4;
+    border: 1px solid #8032E4;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover{
+    background-color: #8c3df3;
+}

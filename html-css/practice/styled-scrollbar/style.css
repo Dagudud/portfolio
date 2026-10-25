@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    color: white;
+}
+
+p{
+    text-align: center;
+}
+
+.a{
+    padding-left: 800px;
+    padding-right: 800px;
+    padding-top: 50px;
+}
+
+h2{
+    text-align: center;
+    color: yellow;
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#q{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar{
+    width: 12px;
+}
+
+::-webkit-scrollbar-thumb{
+    background-image: linear-gradient(yellow, transparent);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: linear-gradient(rgb(65, 100, 255), black);
+}
+
+::-webkit-scrollbar-button{
+    background-color: red;
+}
+
+::-webkit-scrollbar-track-piece:start{
+    background: linear-gradient(rgb(160, 160, 160), transparent);
+}
+
+::-webkit-scrollbar-track-piece:end{
+    background: linear-gradient(transparent, rgb(160, 160, 160));
+}

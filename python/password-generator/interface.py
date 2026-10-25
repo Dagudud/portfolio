@@ -1,0 +1,26 @@
+from tkinter import *
+
+root = Tk()
+root.title('Генератор паролей')
+root.geometry('400x380')
+lowercase = BooleanVar()
+numbers = BooleanVar()
+uppercase = BooleanVar()
+symbols = BooleanVar()
+frame = LabelFrame(text='Символы', width=400, height=300, font=('Arial', 11, 'bold'))
+check_lowercase = Checkbutton(frame, text='abcdefghijklmnopqrstuvwxyz', font=('Arial', 11, 'bold'), variable = lowercase, offvalue=False, onvalue=True)
+check_numbers = Checkbutton(frame, text='0123456789', font=('Arial', 11, 'bold'), variable = numbers, offvalue=False, onvalue=True)
+check_uppercase = Checkbutton(frame, text='ABCDEFGHIJKLMNOPQRSTUVWXYZ', font=('Arial', 11, 'bold'), variable = uppercase, offvalue=False, onvalue=True)
+check_symbols = Checkbutton(frame, text='!@#$%^&*_', font=('Arial', 11, 'bold'), variable = symbols, offvalue=False, onvalue=True)
+listbox = Listbox(frame, font=('Arial', 11, 'bold'), width=30 , height=6)
+button = Button(frame, text='Сгенерировать пароль', font=('Arial', 11, 'bold'))
+frame.pack(fill=X, padx=30, pady=10)
+check_lowercase.pack(anchor=W, padx=20, pady=5)
+check_uppercase.pack(anchor=W, padx=20, pady=5)
+check_numbers.pack(anchor=W, padx=20, pady=5)
+check_symbols.pack(anchor=W, padx=20, pady=5)
+listbox.pack(padx=20, pady=5)
+button.pack(padx=20, pady=5)
+
+if __name__ == '__main__':
+    root.mainloop()

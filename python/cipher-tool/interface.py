@@ -1,0 +1,31 @@
+from tkinter import *
+
+
+root = Tk()
+root.title('Шифрование')
+root.geometry('500x350')
+frame1 = LabelFrame(text='Данные', font=('Arial', 12, 'bold'), width=450, height=150)
+frame2 = LabelFrame(text='Зашифрованные сообщения', font=('Arial', 12, 'bold'), width=450, height=130)
+text1 = Label(frame1, text='Введите текст:', font=('Arial', 11, 'bold'))
+text2 = Label(frame1, text='Введите ключ:', font=('Arial', 11, 'bold'))
+text3 = Label(frame2, text='Шифр Цезаря:', font=('Arial', 11, 'bold'))
+text4 = Label(frame2, text='', font=('Arial', 11, 'bold'))
+text5 = Label(frame2, text='Шифр Атбаш:', font=('Arial', 11, 'bold'))
+text6 = Label(frame2, text='', font=('Arial', 11, 'bold'))
+button = Button(root, text='Зашифровать', width=20, height=1)
+plaintextbox = Entry(frame1)
+keybox = Entry(frame1)
+text1.grid(column=1, row=1, padx=80, pady=10)
+text2.grid(column=3, row=1, padx=30, pady=10)
+text3.grid(column=2, row = 3, padx=160, pady=5)
+text4.grid(column=2, row = 4, padx=180, pady=5)
+text5.grid(column=2, row = 5, padx=180, pady=5)
+text6.grid(column=2, row = 6, padx=180, pady=5)
+frame1.pack(padx=25, pady=10, fill=X)
+frame2.pack(padx=25, pady=10, fill=X)
+button.pack()
+plaintextbox.grid(column=1, row=2, pady=15)
+keybox.grid(column=3, row=2)
+
+if __name__ == '__main__':
+    root.mainloop()

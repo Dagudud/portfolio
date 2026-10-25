@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    width: 100vw;
+    height: 15vh;
+    background-color: burlywood;
+}
+
+nav{
+    width: 100vw;
+    height: 12vh;
+    background-color: brown;
+}
+
+aside{
+    width: 30vw;
+    height: 53vh;
+    float: left;
+    background-color: rgb(198, 198, 255);
+}
+
+article{
+    width: 100vw;
+    height: 53vh;
+    background-color: beige;
+}
+
+footer{
+    width: 100vw;
+    height: 20vh;
+    clear: both;
+    background-color: rgb(96, 96, 255);
+}
+
+video{
+    position: absolute;
+    height: 275px;
+    padding: 40px;
+}
+
+.video-wrapper{
+    background: url(source/tv.png);
+    margin-left: 1700px;
+    width: 580px;
+    height: 360px;
+    position: relative;
+}

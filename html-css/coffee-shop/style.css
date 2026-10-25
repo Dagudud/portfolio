@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Limelight&family=Press+Start+2P&family=Rubik+Dirt&display=swap');
+
+body{
+    margin: 0;
+}
+
+.header{
+    background: url(img/IMG_0429.JPG);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+}
+
+.header .title{
+    color: white;
+    text-align: center;
+    padding-top: 600px;
+    font-weight: 400;
+    font-style: normal;
+    font-family: "Rubik Dirt", system-ui;
+    font-size: 60px;
+    margin: 0;
+}
+
+.menu{
+    width: 100vw;
+    height: 180vh;
+    background-color: rgb(109, 53, 0);
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.picture img{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 30px auto;
+    margin-left: 375px;
+}
+
+.item{
+    margin: 30px auto;
+    border-bottom: 3px solid rgb(58, 38, 0);
+    width: 1000px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 45px;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+a{
+    text-decoration: none;
+}

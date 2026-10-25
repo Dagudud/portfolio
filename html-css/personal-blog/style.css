@@ -1,0 +1,120 @@
+li img{
+    width: 30px;
+    height: 30px;
+}
+
+body{
+    margin: 0;
+}
+
+.header{
+    height: 100px;
+    width: 100vw;
+    background-color: rgb(12, 0, 34);
+    margin-top: -22px;
+}
+
+.header img{
+    height: 80px;
+    float: left;
+    margin: 5px 15px 5px 30px;
+}
+
+.header h1{
+    padding-top: 30px;
+    color: white;
+}
+
+.nav{
+    height: 80px;
+    width: 100vw;
+    clear: both;
+    background-color: rgb(0, 0, 51);
+    margin-top: -17px;
+    color: white;
+    padding: 5px 0;
+}
+
+.nav ul{
+    list-style: none;
+    line-height: 16px;
+    margin-left: 15px;
+}
+
+.nav li{
+    float: left;
+    padding: 2px;
+}
+
+.nav a{
+    text-decoration: none;
+    vertical-align: center;
+}
+
+.content{
+    height: 711px;
+    width: 60%;
+    background-color: rgb(0, 0, 63);
+    float: left;
+    color: white;
+}
+
+.post{
+    padding: 10px 20px;
+    margin: 16px 100px;
+    background-color: rgb(0, 0, 46);
+    border-radius: 15px;
+}
+
+.post p{
+    padding: 1px 0;
+}
+
+.galery{
+    height: 711px;
+    width: 40%;
+    background-color: rgb(0, 0, 63);
+    float: right;
+}
+
+.galery h2{
+    width: px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+}
+
+.galery img{
+    height: 270px;
+    width: auto;
+    padding: 15px 50px;
+}
+
+.a{
+    margin-left: 140px;
+}
+
+.footer{
+    height: 80px;
+    width: 100vw;
+    background-color: rgb(12, 0, 34);
+    clear: both;
+    padding-top: 20px;
+    color: white;
+}
+
+.footer ul{
+    list-style: none;
+    margin-left: 860px;
+}
+
+.footer li{
+    float: left;
+    padding: 2px;
+    margin-left: 15px;
+}
+
+.footer img{
+    height: 18px;
+    width: auto;
+}
